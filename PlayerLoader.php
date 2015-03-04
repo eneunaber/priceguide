@@ -466,6 +466,56 @@ class PlayerLoader
                $handle = fopen("stats/2013PitchingComposite411.csv", "r");
             }
             break;
+         case "14S":
+            if ($playerType == "Hitters")
+            {
+               $handle = fopen("stats/2014Batting.csv", "r");
+            }
+            else
+            {
+               $handle = fopen("stats/2014Pitching.csv", "r");
+            }
+            break;
+         case "14E":
+            if ($playerType == "Hitters")
+            {
+               $handle = fopen("stats/2014BattingSteamer.csv", "r");
+            }
+            else
+            {
+               $handle = fopen("stats/2014PitchingSteamer.csv", "r");
+            }
+            break;
+         case "14Z":
+            if ($playerType == "Hitters")
+            {
+               $handle = fopen("stats/2014BattingZeile.csv", "r");
+            }
+            else
+            {
+               $handle = fopen("stats/2014PitchingZeile.csv", "r");
+            }
+            break;
+         case "15E":
+            if ($playerType == "Hitters")
+            {
+               $handle = fopen("stats/2015BattingSteamer.csv", "r");
+            }
+            else
+            {
+               $handle = fopen("stats/2015PitchingSteamer.csv", "r");
+            }
+            break;
+         case "15Z":
+            if ($playerType == "Hitters")
+            {
+               $handle = fopen("stats/2015BattingZeile.csv", "r");
+            }
+            else
+            {
+               $handle = fopen("stats/2015PitchingZeile.csv", "r");
+            }
+            break;
          default:
             if ($playerType == "Hitters")
             {
