@@ -370,7 +370,7 @@ function buildStartHTML()
 <body class="roto" onload="showTable('hitters');">
 
 <div class="extra_wide_top">
-   <h1><a href="http://lastplayerpicked.zxq.net">Last Player Picked</a></h1>
+   <h1><a href="/">Last Player Picked</a></h1>
 </div>
 
 <?php
@@ -398,17 +398,6 @@ function buildFormHTML($customDataset)
 <p>The Fantasy Baseball Price Guide is a tool that generates custom dollar values for a vast array of
 league configurations.</p>
 <p>If you are in a <strong>points</strong> league, there is a separate <a href="points.php">Points League</a> version of the Price Guide that can handle your league setup.</p>
-
-<div align="center">
-<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
-<input type="hidden" name="cmd" value="_s-xclick">
-<input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----
-">
-<input type="image" src="https://www.paypal.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-<img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1">
-</form>
-</div>
-
 <form method="get" action="index.php">
 
 </div>
