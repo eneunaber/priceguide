@@ -433,6 +433,9 @@ league configurations.</p>
 	  print "<option value=\"15E\" selected=\"selected\">2015 Steamer-Fangraphs</option>";
    }
 ?>                     
+   <option value="16S">2016 Stats</option>
+   <option value="16E">2016 Steamer-Fangraphs</option>
+   <option value="16Z">2016 Zeile</option>
    <option value="15Z">2015 Zeile</option>
    <option value="14S">2014 Stats</option>
    <option value="14E">2014 Steamer-Fangraphs</option>

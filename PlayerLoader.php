@@ -516,6 +516,36 @@ class PlayerLoader
                $handle = fopen("stats/2015PitchingZeile.csv", "r");
             }
             break;
+         case "16E":
+            if ($playerType == "Hitters")
+            {
+               $handle = fopen("stats/2016BattingSteamer.csv", "r");
+            }
+            else
+            {
+               $handle = fopen("stats/2016PitchingSteamer.csv", "r");
+            }
+            break;  
+        case "16Z":
+            if ($playerType == "Hitters")
+            {
+               $handle = fopen("stats/2016BattingZips.csv", "r");
+            }
+            else                         
+            {
+               $handle = fopen("stats/2016PitchingZips.csv", "r");
+            }
+            break;
+        case "16F":
+            if ($playerType == "Hitters")
+            {
+               $handle = fopen("stats/2016BattingFans.csv", "r");
+            }
+            else                         
+            {
+               $handle = fopen("stats/2016PitchingFans.csv", "r");
+            }
+            break;            
          default:
             if ($playerType == "Hitters")
             {
@@ -751,7 +781,7 @@ class PlayerLoader
 
    private function loadPlayerIds(&$players)
    {
-	  $handle = fopen("stats/2015IdConversion.csv", "r");
+	  $handle = fopen("stats/2016IdConversion.csv", "r");
 
       if ($handle)
       {
