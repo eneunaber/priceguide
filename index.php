@@ -434,9 +434,9 @@ league configurations.</p>
    }
 ?>                     
    
-   <option value="16E">2016 Steamer-Fangraphs</option>
+   <option value="16E">2016 Steamer</option>
    <option value="16Z">2016 Zips</option>
-   <option value="16ZE">2016 Zeile</option>   
+   <option value="16P">2016 Zeile</option>   
    <option value="15S">2015 Stats</option>   
    <option value="15Z">2015 Zeile</option>
    <option value="14S">2014 Stats</option>

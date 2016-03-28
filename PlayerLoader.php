@@ -546,7 +546,7 @@ class PlayerLoader
                $handle = fopen("stats/2016PitchingZips.csv", "r");
             }
             break;
-        case "16ZE":
+        case "16P":
             if ($playerType == "Hitters")
             {
                $handle = fopen("stats/2016BattingZiele.csv", "r");
