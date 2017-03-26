@@ -440,8 +440,6 @@ league configurations.</p>
    <option value="17Z">2017 Zips</option>
    <option value="17P">2017 Zeile</option>
    <option value="16S">2016 Stats</option>
-
-
    <option value="16E">2016 Steamer</option>
    <option value="16Z">2016 Zips</option>
    <option value="16P">2016 Zeile</option>   
