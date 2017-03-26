@@ -393,7 +393,7 @@ function buildFormHTML($customDataset)
 
 <div id="content">
 
-<div class="item_head_wide">The Fantasy Baseball Price Guide</div>
+<div class="item_head_wide">The Fantasy Baseball Price Guide - NEW</div>
 <div class="item_wide">
 <p>The Fantasy Baseball Price Guide is a tool that generates custom dollar values for a vast array of
 league configurations.</p>
