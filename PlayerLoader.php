@@ -1,4 +1,4 @@
-<?php
+549<?php
 
 require_once "ProgressUpdater.php";
 
@@ -554,6 +554,67 @@ class PlayerLoader
             else                         
             {
                $handle = fopen("stats/2016PitchingZiele.csv", "r");
+            }
+            break;       
+
+         case "16S":
+            if ($playerType == "Hitters")
+            {
+               $handle = fopen("stats/2016Batting.csv", "r");
+            }
+            else
+            {
+               $handle = fopen("stats/2016Pitching.csv", "r");
+            }
+            break;            
+         case "17E":
+            if ($playerType == "Hitters")
+            {
+               $handle = fopen("stats/2017BattingSteamer.csv", "r");
+            }
+            else
+            {
+               $handle = fopen("stats/2017PitchingSteamer.csv", "r");
+            }
+            break;  
+         case "17F":
+            if ($playerType == "Hitters")
+            {
+               $handle = fopen("stats/2017BattingSteamer600.csv", "r");
+            }
+            else
+            {
+               $handle = fopen("stats/2017PitchingSteamer600.csv", "r");
+            }
+            break;  
+        case "17Z":
+            if ($playerType == "Hitters")
+            {
+               $handle = fopen("stats/2017BattingZips.csv", "r");
+            }
+            else                         
+            {
+               $handle = fopen("stats/2017PitchingZips.csv", "r");
+            }
+            break;
+        case "17P":
+            if ($playerType == "Hitters")
+            {
+               $handle = fopen("stats/2017BattingZiele.csv", "r");
+            }
+            else                         
+            {
+               $handle = fopen("stats/2017PitchingZiele.csv", "r");
+            }
+            break;            
+        case "17A":
+            if ($playerType == "Hitters")
+            {
+               $handle = fopen("stats/2017BattingATC.csv", "r");
+            }
+            else                         
+            {
+               $handle = fopen("stats/2017PitchingATC.csv", "r");
             }
             break;            
          default:

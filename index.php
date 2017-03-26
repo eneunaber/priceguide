@@ -426,14 +426,22 @@ league configurations.</p>
    if ($customDataset)
    {
       print "<option value=\"" . $customDataset . "\" selected=\"selected\">Custom Dataset</option>";
-      print "<option value=\"16E\">2016 Steamer</option>";
+      print "<option value=\"17A\">2017 ATC</option>";
    }
    else
    {
-	  print "<option value=\"16E\" selected=\"selected\">2016 Steamer</option>";
+	  print "<option value=\"17A\" selected=\"selected\">2017 ATC</option>";
    }
 ?>                     
    
+   <option value="17A">2017 ATC</option>
+   <option value="17E">2017 Steamer</option>
+   <option value="17F">2017 Steamer 600</option>
+   <option value="17Z">2017 Zips</option>
+   <option value="17P">2017 Zeile</option>
+   <option value="16S">2016 Stats</option>
+
+
    <option value="16E">2016 Steamer</option>
    <option value="16Z">2016 Zips</option>
    <option value="16P">2016 Zeile</option>   
