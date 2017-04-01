@@ -234,7 +234,7 @@ function printJavaScript($leagueType, $queryString)
    $javaScript .= "\r\n";
    $javaScript .= "            if (tags[i].innerHTML.indexOf(dollarValue) < 0)\r\n";
    $javaScript .= "            {\r\n";
-   $javaScript .= "               tags[i].innerHTML = tags[i].innerHTML + \" \" + dollarValue;\r\n";
+   $javaScript .= "               tags[i].innerHTML = tags[i].innerHTML + \" [\" + dollarValue+ \"]\";\r\n";
    $javaScript .= "            }\r\n";
    $javaScript .= "         }\r\n";
    $javaScript .= "      }\r\n";
