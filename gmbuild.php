@@ -53,7 +53,7 @@ function getLeagueIncludes($leagueType)
    switch($leagueType)
    {
       case YAHOO:
-         return "http://baseball.fantasysports.yahoo.com/b1/*";
+         return "https://baseball.fantasysports.yahoo.com/b1/*";
          break;    
       case ESPN:
          return "http://games.espn.go.com/flb/*";
@@ -99,14 +99,17 @@ function printJavaScript($leagueType, $queryString)
    
    $javaScript .= "// ==UserScript==\r\n";
    $javaScript .= "// @name           Fantasy Baseball Price Guide for " . getLeagueName($leagueType) . "\r\n";
-   $javaScript .= "// @namespace      http://lastplayerpicked.zxq.net/index.php?" . $queryString . "\r\n";
-   $javaScript .= "// @copyright      2013, Mays Copeland\r\n";
+   $javaScript .= "// @namespace      http://priceguide.herokuapp.com/index.php?" . $queryString . "\r\n";
+   $javaScript .= "// @copyright      2017, Eric Neunaber, 2013, Mays Copeland\r\n";
    $javaScript .= "// @include        " . getLeagueIncludes($leagueType) . "\r\n";
    $javaScript .= "// @version        2.2\r\n";
+   $javaScript .= "// @grant          GM_xmlhttpRequest\r\n";
+   $javaScript .= "// @grant          GM_setValue\r\n";
+   $javaScript .= "// @grant          GM_getValue\r\n";
    $javaScript .= "// ==/UserScript==\r\n";
    $javaScript .= "(function() {\r\n";
    $javaScript .= "\r\n";
-   $javaScript .= "var priceGuideURL = \"http://lastplayerpicked.zxq.net/index.php?" . $queryString . "&o=S\"\r\n";
+   $javaScript .= "var priceGuideURL = \"http://priceguide.herokuapp.com/index.php?" . $queryString . "&o=S\"\r\n";
    $javaScript .= "var players = new Array();\r\n";
    $javaScript .= "\r\n";
    $javaScript .= "getPlayers();\r\n";
