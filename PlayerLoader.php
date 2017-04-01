@@ -1,4 +1,4 @@
-549<?php
+<?php
 
 require_once "ProgressUpdater.php";
 
