@@ -439,6 +439,7 @@ league configurations.</p>
    <option value="18F">2018 Steamer 600</option>
    <option value="18Z">2018 Zips</option>
    <option value="18P">2018 Zeile</option>
+   <option value="17S">2017 Stats</option>  
    <option value="17A">2017 ATC</option>
    <option value="17E">2017 Steamer</option>
    <option value="17F">2017 Steamer 600</option>
