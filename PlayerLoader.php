@@ -912,7 +912,7 @@ class PlayerLoader
 
    private function loadPlayerIds(&$players)
    {
-	  $handle = fopen("stats/2016IdConversion.csv", "r");
+	  $handle = fopen("stats/IdConversion-FULL.csv", "r");
 
       if ($handle)
       {

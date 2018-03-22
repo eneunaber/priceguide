@@ -12,7 +12,7 @@
 // I don't have mapped to an MLBAM ID. This requires periodically checking the output of this
 // script to see which players need their player IDs added to IdConversion.csv.
 
-$year = 2013;
+$year = 2018;
 
 $TR_MATCH = "|<tr height=\"20\" class=\"ysprow.*?>(.*?)</tr>|";
 $TD_MATCH = "|<td.*?>(.*?)</td>|";
@@ -234,7 +234,7 @@ function getLeague($team)
 
 function loadPlayerIds(&$players)
 {
-   $handle = fopen("stats/IdConversion.csv", "r");
+   $handle = fopen("stats/IdConversion-FULL.csv", "r");
 
    if ($handle)
    {
