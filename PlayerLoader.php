@@ -676,7 +676,17 @@ class PlayerLoader
             {
                $handle = fopen("stats/2018PitchingATC.csv", "r");
             }
-            break;            
+            break;
+        case "18S":
+            if ($playerType == "Hitters")
+            {
+               $handle = fopen("stats/2018Batting.4.15.csv", "r");
+            }
+            else
+            {
+               $handle = fopen("stats/2017Pitching.4.15.csv", "r");
+            }
+            break;              
          default:
             if ($playerType == "Hitters")
             {

@@ -434,6 +434,7 @@ league configurations.</p>
    }
 ?>                     
    
+   <option value="18S">2018 Stats</option>
    <option value="18A">2018 ATC</option>
    <option value="18E">2018 Steamer</option>
    <option value="18F">2018 Steamer 600</option>
