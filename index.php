@@ -433,7 +433,7 @@ league configurations.</p>
 	  print "<option value=\"18A\" selected=\"selected\">2018 ATC</option>";
    }
 ?>                     
-   
+   <option value="19A">2019 ATC</option>
    <option value="18S">2018 Stats</option>
    <option value="18A">2018 ATC</option>
    <option value="18E">2018 Steamer</option>
